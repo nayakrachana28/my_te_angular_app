@@ -8,8 +8,8 @@ import { Component, OnInit} from '@angular/core';
 export class NavComponent implements OnInit {
 
   constructor() { }
-  
-  //course='Rachana';
+ logo_name='Birds'; 
+course='Birds'; 
 public logo='https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_960,f_auto/DCTM_Penguin_UK_DK_AL526630_wkmzns.jpg';
 productentered: string=' ';
 search_product(product_name:string):void{
